@@ -11,5 +11,6 @@ public class RealWorldApplication {
     Article article = new Article("123", "456", "body");
     article.doSomeTasks("title", "desc", "body");
     SpringApplication.run(RealWorldApplication.class, args);
+    print("hello world");
   }
 }
